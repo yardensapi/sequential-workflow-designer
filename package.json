@@ -1,5 +1,6 @@
 {
 	"private": true,
+	"version": "0.10.2",
 	"scripts": {
 		"build": "yarn workspaces run build",
 		"test:single": "yarn workspaces run test:single",
