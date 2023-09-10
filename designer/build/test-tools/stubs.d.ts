@@ -1,0 +1,13 @@
+import { DesignerApi } from '../api/designer-api';
+import { ComponentContext } from '../component-context';
+import { Definition, Step } from '../definition';
+import { DesignerConfiguration, EditorsConfiguration, ToolboxConfiguration } from '../designer-configuration';
+import { DesignerContext } from '../designer-context';
+export declare function getEditorsConfigurationStub(): EditorsConfiguration;
+export declare function getToolboxConfigurationStub(): ToolboxConfiguration;
+export declare function createDesignerConfigurationStub(): DesignerConfiguration;
+export declare function createStepStub(): Step;
+export declare function createDefinitionStub(): Definition;
+export declare function createDesignerContextStub(): DesignerContext;
+export declare function createComponentContextStub(): ComponentContext;
+export declare function createDesignerApiStub(designerContext?: DesignerContext): DesignerApi;
